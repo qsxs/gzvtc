@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="计算机应用技术"
+            android:textSize="24dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:id="@+id/tv_body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t计算机应用技术专业是广州工程技术职业学院最早开设的计算机技术专业。1996年开始招收专科学生，1999年开始招收高职类学生，历年招生及学生毕业、就业情况都很不错。现有年级3个，教学班5个，在读学生191人。\n
+    本专业主要面向珠江三角洲地区的各类企事业单位，培养在生产、服务第一线能从事办公自动化、计算机软硬件系统的技术开发及安装调试、维护管理、销售，计算机网络应用与维护、网站的开发与维护、单片机与嵌入式系统开发与应用等工作，具有微机的组装与维护能力，具有基本的程序设计、阅读、调试能力，具有计算机网络知识、懂得办公网络建设与维护，懂得站网建设维护知识的通用型人才，具备一定的销售管理知识和职业生涯发展基础的高素质技能型人才。"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:id="@+id/tv_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="计算机网络技术专业"
+            android:textSize="24dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:id="@+id/tv_body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t计算机网络技术专业自2003年9月正式开设，是学院第二批建设的重要专业之一。专业培养方向定位于网络组建规划与管理，课程体系采用模块化结构，并确定了网络构建模块、网站应用管理模块以及和移动平台智能应用模块等三个专业技能培养模块。以“网络互联”为主要技能培养线，“网络编程与应用”和“移动网络平台应用”为辅助技能培养线，贯穿于整个培养方案。经过13年来的建设与发展，在专业定位和人才培养模式、教学基本条件、教学改革与教学管理、人才培养质量及专业特色与创新、科研工作等各方面都取得了明显的成效。目前，本专业有专任教师15人，双肩挑教师3人，其中，副教授3人，讲师15人，实验师4人，双师素质型教师13人。"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:id="@+id/tv_title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="信息安全与管理专业"
+            android:textSize="24dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:id="@+id/tv_body3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t信息安全技术专业是一个人才紧缺型专业，全国只有为数不多的几所高校开设有此专业。我院自2005年开始开设电子信息工程技术专业时就一直把网络安全做为一个专业方向开设,后根据社会对信息安全技术专业人才的需求,自2012年起信息安全技术正式做为独立专业开设，专业培养方向定位于信息安全规划与管理，课程体系采用模块化结构，并确定了程序设计、网页制作和网站架设以及和信息安全管理三个专业技能培养模块。以“信息安全技术”为主要技能培养线，“程序设计与应用”和“网站开发与应用”为辅助技能培养线，贯穿于整个培养方案。毕业生掌握信息安全基本理论，掌握防黑客技术及防病毒技术，掌握操作系统的安全技术，能够规划计算机网络的安全方案，从事信息安全管理和信息安全类公司售前、售后服务的工作。   "
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:id="@+id/tv_title4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="数字媒体应用技术专业"
+            android:textSize="24dp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:id="@+id/tv_body4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t数字媒体应用技术专业学制3年，采用学校与企业相互结合的人才培养模式，其中2年半在校进行集中授课学习，第六学期半年在校外企业进行顶岗实习。\t\n本专业培养目标：培养能从事java软件项目开发、三维动画以及三维建筑场景的基本设计与制作的高素质技能型人才。"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:id="@+id/tv_title5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="软件技术专业"
+            android:textSize="24dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:id="@+id/tv_body5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t学院分别于2003年和2009年开设计算机应用技术（网络游戏开发）和计算机应用技术（企业信息管理师）专业，共输出毕业生过千人。2016年，学院领导及专业建设团队洞察软件技术专业人才的需求，并依据教育部《普通高等学校高等职业教育（专科）专业设置管理办法》和《普通高等学校高等职业教育（专科）专业目录（2015年）》文件的相关精神，拟新增“软件技术”专业。
+   \n\t软件技术专业占据广东软件开发大省的地域优势，始终围绕服务当地经济发展，面向当地支柱产业——软件业，准确定位培养目标，通过多年的探索和实践，专业建设形成了以服务为宗旨，以就业为导向，以技能培养为核心的高职教育理念。
+   \n\t经过多年的发展，专业现有师资，共25人，其中专任教师9人，校内兼课教师1人，校外兼职教师12人，校外兼课教师3人。其中专业带头人为副教授。师资队伍中高级职称4人，硕士学历10人，双师素质8人。校外兼职教师为软件技术企业专家。本专业师资能够承担软件技术专业教学工作。
+   \n\t本专业主要面向珠三角地区的现代化企事业单位，培养满足学校、企业、事业单位等在生产、服务第一线能从事现代信息化建设和软件开发工作的人才。掌握计算机软、硬件基础知识；掌握计算机的使用与维护知识；掌握J2EE/ANDORID等信息系统设计理论及知识；掌握软件项目开发基础知识；掌握软件调试和维护的基本方法；掌握企业网站建设维护、网络编程的基本方法；具备德、智、体、美全面发展的优良品德；具备团结协作、良好沟通的职业素养；具备从事软件实施、售前顾问、售后培训指导、软件部署及二次开发的专业能力，符合区域及现代信息技术发展和职业发展基础的高级技术技能型人才。
+   \n\t目前，软件技术人才主要被以下三方面企业需求：
+   \n\t\t（1）专业的软件开发公司：需要软件开发、测试、维护、销售与售后人员；
+   \n\t\t（2）移动互联网公司：PC端和移动端互联网网站的设计、开发、维护、销售与售后人员；
+   \n\t\t（3）APP软件开发公司及电子商务类型公司：移动APP软件和电子商务类型网站的开发、测试、维护、销售与售后人员。
+   \n\t主要就业行业：公共服务、信息技术、电子商务、电子政务产业。
+   \n\t主要就业单位：信息技术服务公司、生产企业、电子商务公司、政府部门等。"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

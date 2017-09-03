@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="系部介绍"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t广州工程职业技术学院信息工程系成立于2002年，现有计算机应用技术，计算机应用技术（企业信息管理师），计算机应用技术（网络游戏开发），图形图像制作（计算机仿真技术），计算机网络技术，信息安全技术等7个专业和专业方向，以我院“为区域经济和社会发展培养有教养、有本领的高技能人才”为培养目标，实行以典型工作任务为主线的“认知性学习、生产性实训、顶岗性实习”的三阶段人才培养模式，主要培养适应IT产业发展、具有良好职业素养、掌握熟练基本理论、具备较强职业实践技能和续航能力、能胜任IT行业工作，重诚信、会学习、有良好的沟通协作能力、具有创新意识与社会适应能力和严谨的职业规范的准职业人。"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="系部新闻"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/new_1" />
+
+            <TextView
+                android:id="@+id/tv_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_1"
+                android:text="我院学子获“多迪杯”全国网站设计开发大赛三等奖"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/tv_title1"
+                android:layout_below="@id/tv_title1"
+                android:layout_marginTop="8dp"
+                android:text="经过初选、省级远程赛、全国总决赛等层层选拔，较往届比赛范围更大，时间更长，参与企业更多，包括同等学历… [阅读更多]"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/new_2" />
+
+            <TextView
+                android:id="@+id/tv_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_2"
+                android:text="我院优秀毕业生代表企业招聘信息系实习生"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/tv_title2"
+                android:layout_below="@id/tv_title2"
+                android:layout_marginTop="8dp"
+                android:text="届优秀毕业生黄玉婷。本着感恩母校、回馈母校的信念，黄玉婷来到学院招收实习生。她表示，本次实习岗位是目… [阅读更多]"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/new_3" />
+
+            <TextView
+                android:id="@+id/tv_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_3"
+                android:text="信息学子在省高校计算机设计大赛中获三等奖"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_body3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/tv_title3"
+                android:layout_below="@id/tv_title3"
+                android:layout_marginTop="8dp"
+                android:text="近日，由广东省教育厅主办、广州大学承办的“广东省普通高等学校大学生计算机设计大赛”评选结果终于揭… [阅读更多]"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

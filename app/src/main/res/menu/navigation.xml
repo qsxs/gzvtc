@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_page1"
+        android:icon="@drawable/new_1"
+        android:title="学校首页" />
+    <item
+        android:id="@+id/navigation_page2"
+        android:icon="@drawable/new_1"
+        android:title="教学团队" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/new_1"
+        android:title="首页" />
+
+    <item
+        android:id="@+id/navigation_page3"
+        android:icon="@drawable/new_1"
+        android:title="教学成果" />
+
+    <item
+        android:id="@+id/navigation_page4"
+        android:icon="@drawable/new_1"
+        android:title="专业概况" />
+
+</menu>
